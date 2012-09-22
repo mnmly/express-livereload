@@ -1,7 +1,7 @@
 livereload = require('livereload')
 
 module.exports = (app, config = {})->
-  if app.env isnt 'development'
+  if app.env is 'production'
     app.locals.LRScript = ""
   else
     app.locals.LRScript = "<script>document.write('<script src=\"http://' + (location.host || 'localhost').split(':')[0] + ':#{config.port or 35729}/livereload.js\"></' + 'script>')</script>"
