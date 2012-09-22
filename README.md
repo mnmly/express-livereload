@@ -1,9 +1,19 @@
 # Express Livereload
 
-This is really small plugin for express,
-which will run `LiveReload` server simultaniously for development.
+This is really small plugin for express, which will run `LiveReload` server simultaniously for development.
 
-### Static Helper
+### Installation
+
+npm install express-livereload
+
+### Usage
+
+    livereload = require('express-livereload')
+    app        = express()
+
+    livereload(app, config={})
+
+#### Static helper
 
 This plugin will attach `LRScript` which renders the snippet for loading `livereload.js` script.
 
@@ -29,10 +39,6 @@ This plugin will attach `LRScript` which renders the snippet for loading `livere
     </html>
 
 
-### Usage
-
-    app = express()
-    livereload(app, config={})
 
 ### Config options
 
