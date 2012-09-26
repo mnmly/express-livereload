@@ -3,6 +3,6 @@
   "version": "0.0.22",
   "description": "Adds livereload functionality to express app to make development easier on express app without repetitive ⌘ + S",
   "dependencies": {
-    "livereload": "git://github.com/mnmly/node-livereload.git#v0.3.11"
+    "livereload": "git://github.com/mnmly/node-livereload.git"
   }
 }
