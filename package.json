@@ -1,8 +1,8 @@
 {
   "name": "express-livereload",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "description": "Adds livereload functionality to express app to make development easier on express app without repetitive ⌘ + S",
   "dependencies": {
-    "livereload": "git://github.com/mnmly/node-livereload.git"
+    "livereload": "mnmly/node-livereload"
   }
 }
